@@ -1,4 +1,5 @@
 # CutomerPurchase
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -149,7 +150,6 @@ plt.xlabel('Region')
 plt.ylabel('Number of Purchases')
 plt.tight_layout()
 plt.show()
-
 print("\n--- 4.9 Correlation Heatmap of Numerical Features (if multiple numerical features exist) ---")
 # For this dummy dataset, we only have Quantity, UnitPrice, PurchaseAmount.
 # Let's see the correlation between Quantity, UnitPrice, and PurchaseAmount (which is derived)
@@ -159,5 +159,7 @@ plt.figure()
 sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
 plt.title('Correlation Matrix of Numerical Features')
 plt.show()
-
 print("\nData exploration complete. Review the generated plots and console outputs for insights.")
+
+```
+
